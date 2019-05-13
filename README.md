@@ -30,7 +30,7 @@ Fuse (on Spring Boot) to create a prototype to integrate JPA (with external DB),
 1. `for template in eap7-app-secret.json mysql-secret.json analytics_template.json;  do  oc process -f https://raw.githubusercontent.com/mrizzi/sample-analytics-integration/master/src/main/resources/okd/${template}| oc create -f -;  done`
 ## Decision Manager
 1. go to Application -> Routes page and click on the URL in the `Hostname` column beside the `myapp-rhdmcentr` service
-1. login with `adminUser`-`password`
+1. login with `adminUser`-`SxNhwF2!`
 1. click on `Design` link
 1. click on `Import Project` button
 1. in the `Repository URL` field paste `https://github.com/mrizzi/sample-analytics.git`
